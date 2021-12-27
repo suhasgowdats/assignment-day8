@@ -1,0 +1,39 @@
+3).   Write a “person” class to hold all the details.
+
+class Person {
+    constructor(firtsname,initial,age,gender,city){
+        this.firtsname = firtsname;
+        this.initial = initial;
+        this.age = age;
+        this.gender= gender;
+        this.city = city
+    }
+    getdata(){
+        return `${this.firtsname} ${this.initial} ${this.age} ${this.gender} ${this.city} ${this.language}`
+    }
+}
+
+let object = new Person("Suhas Gowda","s",24,"male","bangalore")
+console.log(object.getdata())
+
+
+
+4).   write a class to calculate uber price.
+
+
+
+class uber {
+        constructor(KM){
+            this.km = KM
+        }
+        getprice(){
+            let value=1
+            let priceperkm=10
+            value=priceperkm*this.km
+            return `${value}`
+        }
+    }
+    
+    let uberprice = new uber(20)
+    console.log(uberprice.getprice())
+
