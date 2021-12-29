@@ -36,4 +36,5 @@ class uber {
     
     let uberprice = new uber(20)
     console.log(uberprice.getprice())
+    
 
